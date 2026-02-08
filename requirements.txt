@@ -1,0 +1,16 @@
+langchain
+langgraph
+
+langchain-ollama
+langchain-google-genai
+langchain-openai
+pydantic
+langchain-core
+
+python-dotenv
+# tools for math
+sympy
+numpy
+# tools for weather extension
+python-weather
+
