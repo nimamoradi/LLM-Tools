@@ -28,7 +28,6 @@ class WeatherTool(BaseTool):
         async with python_weather.Client(unit=python_weather.IMPERIAL) as client:
             try:
                 target_date = datetime.strptime(date, "%Y-%m-%d").date()
-                print(f"target_date: {target_date} for location: {location}" )
             except ValueError:
                 return json.dumps({"ok": False, "error": "Invalid date format. Please use YYYY-MM-DD."})
 
